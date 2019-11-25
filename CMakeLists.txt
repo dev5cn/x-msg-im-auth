@@ -22,7 +22,6 @@ ADD_DEFINITIONS(-Wno-builtin-macro-redefined)
 SET(CMAKE_CXX_FLAGS $ENV{CXX_FLAGS})
 #
 LINK_DIRECTORIES(../libmisc-cpp)
-LINK_DIRECTORIES(../libmisc-kafka-c)
 LINK_DIRECTORIES(../libxsc-cpp)
 LINK_DIRECTORIES(../libxsc-proto-cpp)
 LINK_DIRECTORIES(../libx-msg-im-xsc)
